@@ -6,4 +6,4 @@ comment multiply lines:
   select with `shift + V` then `:s/^/#`
   
 uncomment multiply lines:
-  select with `shift + V` then `:s/^/#`
+  select with `shift + V` then `:s/#/`
