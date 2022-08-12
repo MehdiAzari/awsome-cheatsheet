@@ -7,3 +7,6 @@ comment multiply lines:
   
 uncomment multiply lines:
   select with `shift + V` then `:s/#/`
+
+Force write with root permision
+  `:w !sudo tee %`
