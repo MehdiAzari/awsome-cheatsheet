@@ -15,6 +15,10 @@ This will get updated soon
 
   `:w !sudo tee %`
   
+  
+ **Replace pattern in file**
+ `:%s/foo/bar/g`
+  
 
 **Insert text into multiple lines at once** [refrence](https://riptutorial.com/vim/example/7301/insert-text-into-multiple-lines-at-once#:~:text=vim%20Inserting%20text%20Insert%20text%20into%20multiple%20lines%20at%20once&text=Use%20%E2%86%91%20%2F%20%E2%86%93%20%2F%20j%20%2F,all%20the%20lines%20you%20selected.)
 
