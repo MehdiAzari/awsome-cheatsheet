@@ -44,6 +44,8 @@ This will get updated soon
 
   `ctrl b` then `n`
  
+ **Enable scroll**
+  `ctrl b ` then `[`
  
 ## Docker
 ```bash
