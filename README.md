@@ -58,3 +58,7 @@ sudo docker rmi -f  $(sudo docker images -f "dangling=true" -q)
 docker volume ls -qf dangling=true | xargs -r docker volume rm
 
 ```
+
+## Disk
+
+```du -cha --max-depth=1 / | grep -E "M|G"```
