@@ -62,3 +62,9 @@ docker volume ls -qf dangling=true | xargs -r docker volume rm
 ## Disk
 
 ```du -cha --max-depth=1 / | grep -E "M|G"```
+
+## Process
+
+``` fuser -k <PID> ```
+
+``` ps aux | awk '$8=="Z" {print $2}' ```
