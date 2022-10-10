@@ -48,6 +48,8 @@ This will get updated soon
   `ctrl b ` then `[`
  
 ## Docker
+
+### commands
 ```bash
 sudo docker system prune -a -f
 
@@ -57,6 +59,14 @@ sudo docker rmi -f  $(sudo docker images -f "dangling=true" -q)
 
 docker volume ls -qf dangling=true | xargs -r docker volume rm
 
+```
+
+### docker compose
+
+access host network from container in specific network namespace
+```
+extra_hosts:
+  - "host.docker.internal:host-gateway"
 ```
 
 ## Disk
