@@ -59,6 +59,14 @@ sudo docker rmi -f  $(sudo docker images -f "dangling=true" -q)
 
 docker volume ls -qf dangling=true | xargs -r docker volume rm
 
+docker logs --since 30s -f <container_name_or_id>
+
+docker logs --since 30s -f <container_name_or_id>
+
+echo "" > $(docker inspect --format='{{.LogPath}}' <container_name_or_id>)
+
+truncate -s 0 /var/lib/docker/containers/*/*-json.log
+
 ```
 
 ### docker compose
