@@ -46,7 +46,19 @@ This will get updated soon
  
  **Enable scroll**
   `ctrl b ` then `[`
- 
+  
+ **Use Ctrl + Left/Right to move forward/back one word in tmux within Mobaxterm**
+
+Edit your ~/.tmux.conf and add lines:
+
+`set-window-option -g xterm-keys on`
+If you don’t want to make it permanent just yet, do:
+
+`ctrl-b :set-window-option xterm-keys on`
+Reload your config in tmux by doing:
+
+`ctrl-b :source-file ~/.tmux.conf`
+
 ## Docker
 
 ### commands
