@@ -39,6 +39,9 @@ This will get updated soon
 **[C]reate new window**
 
   `ctrl b` then `c`
+  
+**Move pane to a new window**
+  `ctrl b ` then `!`
  
 **[N]ext window**
 
